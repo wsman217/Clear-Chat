@@ -1,0 +1,19 @@
+Messages: 
+   ClearChatMsg: ""
+   ClearMyChatMsg: ""
+   NoPerms: "&4Sorry but you do not have the correct permssion to use this command!"
+   PlayersOnly: "&4This command can not be used by console!"
+Settings:
+   GUIName: "&4&lClear Chat GUI"
+   InventorySlots: 9
+GUI:
+   ClearChatItem: 
+      ItemType: "Ender_Eye"
+      ItemName: "&bClear Server Chat"
+      Lore: 
+         - "&cClick this to clear server chat!"
+   ClearMyChatItem: 
+      ItemType: "Blaze_Powder"
+      ItemName: "&bClear Personal Chat"
+      Lore:
+         - "&cClick this to clear your personal chat!"

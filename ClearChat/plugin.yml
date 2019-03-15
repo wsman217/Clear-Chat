@@ -1,0 +1,36 @@
+main: me.wsman217.ClearChat.ClearChat
+name: ClearChat
+api-version: 1.13
+version: 1.0
+author: wsman217
+description: A plugin that allows you to clear the chat.
+commands: 
+  clearchat: 
+     description: Clears the servers chat
+     usage: /[command]
+  clearmychat:
+     description: Clears the executors chat
+     usage: /[command]
+  clearchatgui:
+     description: Brings up the clear chat gui.
+     usage: /[command]
+permissions: 
+   clearchat.*:
+      description: "Gives access to all BossFights commands"
+      default: op
+      children:
+         clearchat.clearchat: true
+         clearchat.clearmychat: true
+         clearchat.clearchatgui: true
+         clearchat.reload: true
+         clearchat.help: true
+   clearchat.clearchat:
+       description: "Clears the servers chat."
+   clearchat.clearmychat:
+       description: "Clears the senders chat."
+   clearchat.clearchatgui:
+       description: "Brings up the clear chat gui."
+   clearchat.reload: 
+       description: "Reloads the config.yml"
+   clearchat.help: 
+       description: "Displays a help menu"
